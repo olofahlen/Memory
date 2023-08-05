@@ -7,7 +7,7 @@ import pathlib
 import logging
 import time
 
-NAMES = typing.Literal["Verb", "Adjektiv", "Substantiv"]
+from types import NAMES
 
 logging.basicConfig(level=logging.INFO)
 
