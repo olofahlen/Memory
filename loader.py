@@ -11,7 +11,7 @@ def read_words(name: NAMES) -> None:
         pd.concat(
             [
                 pd.read_csv(file, header=None).squeeze(axis=1)
-                for file in folder.glob("*.pickle")
+                for file in folder.glob("*.csv")
             ]
         )
         .sort_values()
