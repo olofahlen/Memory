@@ -7,7 +7,7 @@ import pathlib
 import logging
 import time
 
-from types import NAMES
+from constants import NAMES
 
 logging.basicConfig(level=logging.INFO)
 

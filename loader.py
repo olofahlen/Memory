@@ -2,7 +2,7 @@ import pathlib
 
 import pandas as pd
 
-from types import NAMES
+from constants import NAMES
 
 
 def read_words(name: NAMES) -> None:
